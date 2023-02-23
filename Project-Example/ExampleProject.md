@@ -1,10 +1,10 @@
 
-# dghegerg
+# project title
 
 ![License](https://img.shields.io/static/v1?label=License&message="MIT&color=GREEN)
 
 ## Description
-fgwsgfsfgsf
+a great project description goes here
 
 ## Table of Contents
 * [Installation](#installation)
@@ -15,26 +15,26 @@ fgwsgfsfgsf
 * [Questions](#questions)
 
 ## Installation
-fsgrsfgsfgbrsf
+what do i need to know for install
 
 ## Usage
-sfgwsfgvesfgb
-rfgrgrsgvrdfgsf
+how and why would i use this?
+always good to have screenshots!
 
 ## Credits
-sfgerfgfgerdfgdf
+who participated?
 
 ## Project Status
-fbdfbdfgerdfgerrdfg
+is the project complete?
 
 ## Tests
-rdfgerdfgersfgre
+test area is another great spot for a screenshot or video!
 
 ## Roadmap
-rfgergerfgerg
+what are the big ideas?
 
 ## Github Link
-[dghegerg](ergferdfgergferfg)
+[project title](github pages link goes here!)
 
 ## Questions
-Hi, my name is rgergferdfg. If you have any questions about my project, please E-mail me [HERE!](mailto:rfberdfberdfberdf)
+Hi, my name is Bri. If you have any questions about my project, please E-mail me [HERE!](mailto:email goes here)

@@ -1,6 +1,6 @@
-# ${answers.ProjectTitle}
+# Professional README Generator
 
-![License](https://img.shields.io/static/v1?label=License&message="${answers.license}&color=GREEN)
+![License](https://img.shields.io/static/v1?label=License&message="${MIT}&color=GREEN)
 
 ## Description
 The Professional README Generator was created for developers whom want to save time writing and laying out their README files. Just answer some simple questions about your project, and let the generator do the work for you! I'm always wanting to find ways to save some time. Hopefully this will be a useful tool for others to use as well. 
@@ -8,8 +8,7 @@ The Professional README Generator was created for developers whom want to save t
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Licenses](#licenses)
-* [Contribution](#contribution)
+* [Credits](#credits)
 * [Tests](#tests)
 * [Questions](#questions)
 
