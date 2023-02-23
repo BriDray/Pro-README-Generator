@@ -1,10 +1,10 @@
 
-# project title
+# testing a change
 
-![License](https://img.shields.io/static/v1?label=License&message="MIT&color=GREEN)
+![License](https://img.shields.io/static/v1?label=License&message=MIT&color=GREEN)
 
 ## Description
-a great project description goes here
+description
 
 ## Table of Contents
 * [Installation](#installation)
@@ -15,26 +15,26 @@ a great project description goes here
 * [Questions](#questions)
 
 ## Installation
-what do i need to know for install
+install
 
 ## Usage
-how and why would i use this?
-always good to have screenshots!
+blurb
+screenshot
 
 ## Credits
-who participated?
+credits
 
 ## Project Status
-is the project complete?
+status
 
 ## Tests
-test area is another great spot for a screenshot or video!
+tests
 
 ## Roadmap
-what are the big ideas?
+big ideas
 
 ## Github Link
-[project title](github pages link goes here!)
+[testing a change](link)
 
 ## Questions
-Hi, my name is Bri. If you have any questions about my project, please E-mail me [HERE!](mailto:email goes here)
+Hi, my name is bri. If you have any questions about my project, please E-mail me [HERE!](mailto:email)

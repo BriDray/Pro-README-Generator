@@ -89,7 +89,7 @@ function init() {
 `
 # ${answers.ProjectTitle}
 
-![License](https://img.shields.io/static/v1?label=License&message="${answers.license}&color=GREEN)
+![License](https://img.shields.io/static/v1?label=License&message=${answers.license}&color=GREEN)
 
 ## Description
 ${answers.description}
