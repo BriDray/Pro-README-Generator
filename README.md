@@ -22,7 +22,9 @@ The application will be invoked by using the following command:
 ```bash
 node index.js
 ```
-Please see the quick video below for a more detailed how-to. 
+Please see the quick video below for a more detailed how-to.
+
+https://user-images.githubusercontent.com/118693956/220823276-9dd62806-b204-456d-9ae1-16ae5f58fa0e.mp4
 
 ## Credits
 This was a solo project done on my own, Credits go to Bri Dray.
