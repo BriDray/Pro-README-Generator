@@ -1,28 +1,41 @@
+# ${answers.ProjectTitle}
 
-       # professional README Generator
+![License](https://img.shields.io/static/v1?label=License&message="${answers.license}&color=GREEN)
 
-       ## Description
-       A quick and easy way to create a professional looking and easy to read README file for your Github projects!
+## Description
+The Professional README Generator was created for developers whom want to save time writing and laying out their README files. Just answer some simple questions about your project, and let the generator do the work for you! I'm always wanting to find ways to save some time. Hopefully this will be a useful tool for others to use as well. 
 
-       ## Installation
-       must have [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4) installed for this program to work.
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Licenses](#licenses)
+* [Contribution](#contribution)
+* [Tests](#tests)
+* [Questions](#questions)
 
-       ## Usage
-       once the inquirer package is installed. all you have to do is open a new terminal and run the program using your cli. answer the questions as  prompted. The program will fill out the README file for you using the answers you gave.
-       Screenshot (75).png
+## Installation
+For this program you need two things installed. the first one would be NodeJS. and the second will be [Inquirer package](https://www.npmjs.com/package/inquirer/v/8.2.4).
 
-       ## Credits
-       this was a project I worked on by myself. 
+## Usage
+This program will be run through your CLI. its very simple! 
+The application will be invoked by using the following command:
 
-       ## License
-       [MIT](link to the MIT license goes here)
+```bash
+node index.js
+```
+Please see the quick video below for a more detailed how-to. 
 
-       ## Project Status
-       the project works! and is available for others to use.
+## Credits
+This was a solo project done on my own, Credits go to Bri Dray.
 
-       ## Github Link
-       [professional README Generator](this will not be a deployed project. its a tool to make developers lives easier.)
+## Project Status
+This is a Completed project at this time. Theres always room for improvement though. Please let me kknow if you have any suggestions!
 
-       ## Roadmap
-       plan to adjust some of the questions to help create a more thourough a descriptive README. theres always room for improvement.
-        
+## Tests
+I tested this program through every step taken to create it. you will also find an example README within the Project-Example folder that was created with the professional README Generator.
+
+## Github Link
+This will not be a Deployed Project. Therefore, there will not be a Github Pages link to share.
+
+## Questions
+Hi, my name is Bri Dray. If you have any questions about my project, please E-mail me [HERE!](mailto:stanggurl02@gmail.com)

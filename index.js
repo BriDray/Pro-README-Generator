@@ -4,106 +4,131 @@ const fs = require('fs');
 
 // TODO: Create an array of questions for user input
 const questions = [
-    {
-        type: 'input',
-        name: 'ProjectTitle',
-        message: "What's the name of your project?",
-      },
-      {
-        type: 'input',
-        name: 'description',
-        message: "Project Description:",
-      },
-      {
-        type: 'input',
-        name: 'installation',
-        message: "Installation Directions:",
-      },
-      {
-        type: 'input',
-        name: 'usage',
-        message: "Usage Blurb goes here:",
-      },
-      {
-        type: 'input',
-        name: 'usageVisual',
-        message: "Add a Screenshot or video here.",
-      },
-      {
-        type: 'input',
-        name: 'credits',
-        message: "who should get credits for this project?",
-      },
-      {
-        type: 'input',
-        name: 'License1',
-        message: "what license was used?",
-      },
-      {
-        type: 'input',
-        name: 'License2',
-        message: "link for license.",
-      },
-      {
-        type: 'input',
-        name: 'pStatus',
-        message: "Project Status Blurb.",
-      },
-      {
-        type: 'input',
-        name: 'github',
-        message: "Github Deployed Link",
-      },
-      {
-        type: 'input',
-        name: 'roadMap',
-        message: "ideas/plans for the future fot the project.",
-      },
+  {
+    type: 'input',
+    name: 'ProjectTitle',
+    message: "What's the name of your project?",
+  },
+  {
+    type: 'input',
+    name: 'description',
+    message: "Project Description:",
+  },
+  {
+    type: 'input',
+    name: 'installation',
+    message: "Installation Directions:",
+  },
+  {
+    type: 'input',
+    name: 'usage',
+    message: "Usage Blurb goes here:",
+  },
+  {
+    type: 'input',
+    name: 'usageVisual',
+    message: "Add a Screenshot or video here.",
+  },
+  {
+    type: 'input',
+    name: 'credits',
+    message: "who should get credits for this project?",
+  },
+  {
+    type: 'list',
+    message: 'What License did you choose?',
+    name: 'license',
+    choices: ['MIT', 'GNU', 'Apache', 'None'],
+  },
+  {
+    type: 'input',
+    name: 'pStatus',
+    message: "Project Status Blurb.",
+  },
+  {
+    type: 'input',
+    name: 'tests',
+    message: "Include any tests done for the project.",
+  },
+  {
+    type: 'input',
+    name: 'github',
+    message: "Github Deployed Link",
+  },
+  {
+    type: 'input',
+    name: 'roadMap',
+    message: "ideas/plans for the future for the project.",
+  },
+  {
+    type: 'input',
+    name: 'name',
+    message: "Name for questions section",
+  },
+  {
+    type: 'input',
+    name: 'email',
+    message: "e-mail for questions section",
+  },
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, function (err) {
-        if (err) throw err;
-        console.log('Saved!');
-      });
+  fs.writeFile(fileName, data, function (err) {
+    if (err) throw err;
+    console.log('Saved!');
+  });
 }
 
 // TODO: Create a function to initialize app
 function init() {
-    console.log("initialize")
-    inquirer.prompt(questions).then((answers) => {
-        // console.log(JSON.stringify(answers, null, '  '));
-        writeToFile("README.md",`
-       # ${answers.ProjectTitle}
+  console.log("initialize")
+  inquirer.prompt(questions).then((answers) => {
+    // console.log(JSON.stringify(answers, null, '  '));
+    writeToFile("Project-Example/ExampleProject.md",
+`
+# ${answers.ProjectTitle}
 
-       ## Description
-       ${answers.description}
+![License](https://img.shields.io/static/v1?label=License&message="${answers.license}&color=GREEN)
 
-       ## Installation
-       ${answers.installation}
+## Description
+${answers.description}
 
-       ## Usage
-       ${answers.usage}
-       ${answers.usageVisual}
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Licenses](#licenses)
+* [Contribution](#contribution)
+* [Tests](#tests)
+* [Questions](#questions)
 
-       ## Credits
-       ${answers.credits}
+## Installation
+${answers.installation}
 
-       ## License
-       [${answers.License1}](${answers.License2})
+## Usage
+${answers.usage}
+${answers.usageVisual}
 
-       ## Project Status
-       ${answers.pStatus}
+## Credits
+${answers.credits}
 
-       ## Github Link
-       [${answers.ProjectTitle}](${answers.github})
+## Project Status
+${answers.pStatus}
 
-       ## Roadmap
-       ${answers.roadMap}
-        `)
-      });
-      
+## Tests
+${answers.tests}
+
+## Roadmap
+${answers.roadMap}
+
+## Github Link
+[${answers.ProjectTitle}](${answers.github})
+
+## Questions
+Hi, my name is ${answers.name}. If you have any questions about my project, please E-mail me [HERE!](mailto:${answers.email})
+`)
+  });
+
 }
 
 // Function call to initialize app
